@@ -11,14 +11,32 @@
        http://www.springframework.org/schema/context/spring-context.xsd">
 
     <!--配置注解定时任务-->
-    <context:component-scan base-package="main.java.task"/>
+    <context:component-scan base-package="main.java.task" />
+    <context:component-scan base-package="main.java.thread" />
+
     <task:executor id="executor" pool-size="5"/>
     <task:scheduler id="scheduler" pool-size="10"/>
     <task:annotation-driven executor="executor" scheduler="scheduler"/>
+    <!-- spring thread pool executor -->
+    <bean id="taskExecutor" class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">
+        <!-- 线程池维护线程的最少数量 -->
+        <property name="corePoolSize" value="5" />
+        <!-- 允许的空闲时间 -->
+        <property name="keepAliveSeconds" value="200" />
+        <!-- 线程池维护线程的最大数量 -->
+        <property name="maxPoolSize" value="10" />
+        <!-- 缓存队列 -->
+        <property name="queueCapacity" value="20" />
+        <!-- 对拒绝task的处理策略 -->
+        <property name="rejectedExecutionHandler">
+            <bean class="java.util.concurrent.ThreadPoolExecutor$CallerRunsPolicy" />
+        </property>
+    </bean>
 
     <bean id="helloWorld" class="main.java.entity.HelloWord">
         <property name="company" value="test"/>
         <property name="name" value="hc"/>
     </bean>
+
 
 </beans>
