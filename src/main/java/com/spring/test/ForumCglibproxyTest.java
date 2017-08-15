@@ -1,7 +1,7 @@
-package main.java.test;
+package com.spring.test;
 
-import main.java.aop.CglibProxy;
-import main.java.aop.proto.ForumServiceImpl;
+import com.spring.aop.CglibProxy;
+import com.spring.aop.proto.ForumServiceImpl;
 
 /**
  * Created by:  intelliJ IDEA
@@ -9,7 +9,7 @@ import main.java.aop.proto.ForumServiceImpl;
  * @Author albert
  * @Description: cglib代理
  * @Date:2017/7/19 下午4:12
- * @package:main.java.test
+ * @package:test
  * @Modified By:
  */
 public class ForumCglibproxyTest {

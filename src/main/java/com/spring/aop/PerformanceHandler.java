@@ -1,6 +1,6 @@
-package main.java.aop;
+package com.spring.aop;
 
-import main.java.aop.proto.PerformanceMonitor;
+import com.spring.aop.proto.PerformanceMonitor;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
@@ -11,7 +11,7 @@ import java.lang.reflect.Method;
  * @Author albert
  * @Description:
  * @Date:2017/7/19 下午2:49
- * @package:main.java.aop
+ * @package:aop
  * @Modified By:
  */
 public class PerformanceHandler implements InvocationHandler {

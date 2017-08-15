@@ -1,4 +1,4 @@
-package main.java.test;
+package com.spring.test;
 
 import java.util.HashSet;
 
@@ -8,7 +8,7 @@ import java.util.HashSet;
  * @Author albert
  * @Description:
  * @Date:2017/7/21 上午11:06
- * @package:main.java.test
+ * @package:test
  * @Modified By:
  */
 public class HashSetTest {

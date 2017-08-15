@@ -1,4 +1,4 @@
-package main.java.aop.proto;
+package com.spring.aop.proto;
 
 /**
  * Created by:  intelliJ IDEA
@@ -6,7 +6,7 @@ package main.java.aop.proto;
  * @Author albert
  * @Description:
  * @Date:2017/7/19 下午2:30
- * @package:main.java.aop
+ * @package:aop
  * @Modified By:
  */
 public class MethodPerformance {

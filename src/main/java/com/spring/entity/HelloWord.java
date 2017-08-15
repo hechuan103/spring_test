@@ -1,4 +1,4 @@
-package main.java.entity;
+package com.spring.entity;
 
 /**
  * Created by:  intelliJ IDEA
@@ -6,7 +6,7 @@ package main.java.entity;
  * @Author albert
  * @Description:
  * @Date:2017/7/21 下午2:15
- * @package:main.java.entity
+ * @package:entity
  * @Modified By:
  */
 public class HelloWord {

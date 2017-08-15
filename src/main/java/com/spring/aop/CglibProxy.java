@@ -1,4 +1,4 @@
-package main.java.aop;
+package com.spring.aop;
 
 import org.springframework.cglib.proxy.Enhancer;
 import org.springframework.cglib.proxy.MethodInterceptor;
@@ -12,7 +12,7 @@ import java.lang.reflect.Method;
  * @Author albert
  * @Description:cglib代理
  * @Date:2017/7/19 下午3:21
- * @package:main.java.aop
+ * @package:aop
  * @Modified By:
  */
 public class CglibProxy implements MethodInterceptor{

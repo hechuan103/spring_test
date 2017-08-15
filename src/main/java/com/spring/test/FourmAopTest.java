@@ -1,8 +1,8 @@
-package main.java.test;
+package com.spring.test;
 
-import main.java.aop.ForumAop;
-import main.java.aop.PerformanceHandler;
-import main.java.aop.proto.ForumService;
+import com.spring.aop.ForumAop;
+import com.spring.aop.PerformanceHandler;
+import com.spring.aop.proto.ForumService;
 
 import java.lang.reflect.Proxy;
 
@@ -12,7 +12,7 @@ import java.lang.reflect.Proxy;
  * @Author albert
  * @Description:
  * @Date:2017/7/19 下午2:57
- * @package:main.java.test
+ * @package:test
  * @Modified By:
  */
 public class FourmAopTest {

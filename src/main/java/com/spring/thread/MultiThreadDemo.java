@@ -1,4 +1,4 @@
-package main.java.thread;
+package com.spring.thread;
 
 /**
  * 多线程并发处理demo

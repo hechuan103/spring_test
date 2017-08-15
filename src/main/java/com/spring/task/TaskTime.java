@@ -1,6 +1,6 @@
-package main.java.task;
+package com.spring.task;
 
-import main.java.entity.HelloWord;
+import com.spring.entity.HelloWord;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
@@ -14,7 +14,7 @@ import java.util.Date;
  * @Author albert
  * @Description:
  * @Date:2017/7/21 下午2:27
- * @package:main.java.task
+ * @package:task
  * @Modified By:
  */
 @Component

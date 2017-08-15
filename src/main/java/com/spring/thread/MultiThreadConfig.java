@@ -1,16 +1,14 @@
-package main.java.thread;
+package com.spring.thread;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.ImportResource;
-import org.springframework.scheduling.annotation.EnableScheduling;
 
 /**
  * Created by hechuan on 2017/8/11.
  */
-@Configuration
- @ComponentScan(basePackages = { "main.java.thread" })
- @ImportResource(value = { "classpath*:resources/spring-config.xml" })
- @EnableScheduling
+ @Configuration
+ @ComponentScan(basePackages = {"com.spring.thread"})
+ @ImportResource(value = { "spring-config.xml" })
  public class MultiThreadConfig {
  }

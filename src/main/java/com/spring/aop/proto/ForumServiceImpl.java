@@ -1,4 +1,4 @@
-package main.java.aop.proto;
+package com.spring.aop.proto;
 
 /**
  * Created by:  intelliJ IDEA
@@ -6,7 +6,7 @@ package main.java.aop.proto;
  * @Author albert
  * @Description:
  * @Date:2017/7/19 下午2:23
- * @package:main.java.aop
+ * @package:aop
  * @Modified By:
  */
 public class ForumServiceImpl implements ForumService {
@@ -14,7 +14,7 @@ public class ForumServiceImpl implements ForumService {
     public void removeTopic(int topicId) {
         //①-1开始对该方法进行性能监视
         PerformanceMonitor.begin(
-                "main.java.aop.proto.ForumServiceImpl. removeTopic");
+                "com.spring.aop.proto.ForumServiceImpl. removeTopic");
         System.out.println("模拟删除Topic记录:"+topicId);
         try {
             Thread.currentThread().sleep(20);
@@ -30,7 +30,7 @@ public class ForumServiceImpl implements ForumService {
     public void removeForum(int forumId) {
         //②-1开始对该方法进行性能监视
         PerformanceMonitor.begin(
-                "main.java.aop.proto.ForumServiceImpl. removeForum");
+                "com.spring.aop.proto.ForumServiceImpl. removeForum");
         System.out.println("模拟删除Forum记录:"+forumId);
         try {
             Thread.currentThread().sleep(40);

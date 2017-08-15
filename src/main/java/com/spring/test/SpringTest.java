@@ -1,6 +1,6 @@
-package main.java.test;
+package com.spring.test;
 
-import main.java.entity.HelloWord;
+import com.spring.entity.HelloWord;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -10,7 +10,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  * @Author albert
  * @Description:
  * @Date:2017/7/18 下午6:05
- * @package:main.java.test
+ * @package:test
  * @Modified By:
  */
 public class SpringTest {

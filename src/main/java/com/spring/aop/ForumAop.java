@@ -1,6 +1,6 @@
-package main.java.aop;
+package com.spring.aop;
 
-import main.java.aop.proto.ForumService;
+import com.spring.aop.proto.ForumService;
 
 /**
  * Created by:  intelliJ IDEA
@@ -8,7 +8,7 @@ import main.java.aop.proto.ForumService;
  * @Author albert
  * @Description:
  * @Date:2017/7/19 下午2:45
- * @package:main.java.aop.proto
+ * @package:aop.proto
  * @Modified By:
  */
 public class ForumAop implements ForumService {

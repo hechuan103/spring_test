@@ -1,7 +1,7 @@
-package main.java.test;
+package com.spring.test;
 
-import main.java.aop.proto.ForumService;
-import main.java.aop.proto.ForumServiceImpl;
+import com.spring.aop.proto.ForumService;
+import com.spring.aop.proto.ForumServiceImpl;
 
 /**
  * Created by:  intelliJ IDEA
@@ -9,7 +9,7 @@ import main.java.aop.proto.ForumServiceImpl;
  * @Author albert
  * @Description:
  * @Date:2017/7/19 下午2:33
- * @package:main.java.test
+ * @package:test
  * @Modified By:
  */
 public class ForumServiceTest {

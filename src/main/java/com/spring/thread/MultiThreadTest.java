@@ -1,4 +1,4 @@
-package main.java.thread;
+package com.spring.thread;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,15 +7,13 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-
-import javax.annotation.Resource;
 import java.io.IOException;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = { MultiThreadConfig.class })
 public class MultiThreadTest {
 
-    @Resource
+    @Autowired
     private ThreadPoolTaskExecutor taskExecutor;
 
     @Autowired
